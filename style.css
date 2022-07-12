@@ -35,10 +35,21 @@
     transform: rotateX(15deg);
     z-index: 2;
   }
+  
 
   .item6 > ul {
     text-decoration: none;
     list-style: none;
+
+  }
+
+  .item6 > a {
+    text-decoration: none;
+  }
+  .item6 > ul > a > li{
+    display: inline;
+    margin-left: 25px;
+    justify-content: space-between;
   }
 
   .circles li{
@@ -48,8 +59,7 @@
     width: 20px;
     height: 20px;
     animation: animate 25s linear infinite;
-    
-    
+    bottom: -25px;
 }
 
 .circles li:nth-child(1){
